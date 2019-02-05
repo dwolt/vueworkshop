@@ -12,9 +12,10 @@ Vue.use(Vuetify);
 Vue.use(VueRouter);
 
 const routes = [
-  { path: '/', component: Home },
-  { path: '/pets', component: Pets}
-]
+  { path: "/", component: Home },
+  { path: "/pets", component: Pets }
+];
+
 const router = new VueRouter({ routes });
 
 Vue.config.productionTip = false;
